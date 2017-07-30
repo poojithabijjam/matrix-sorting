@@ -12,7 +12,7 @@ int main()
                         cout<<"\t";
                 }
                 cout<<endl;
-        }
+        }//creating a matrix
         for(int p=0;p<3;p++)
         {
                 for(int q=0;q<4;q++)
@@ -28,7 +28,7 @@ int main()
                                 }
                         }
                 }
-        }
+        }//sorting elements in rows
         for(int m=0;m<4;m++)
         {
                 for(int n=0;n<3;n++)
@@ -42,7 +42,7 @@ int main()
                                 }
                         }
                 }
-        }
+        }//sorting elements to column
 
 
         cout<<"sorted\t";
@@ -54,6 +54,6 @@ int main()
                         cout<<"\t";
                 }
                 cout<<"\n";
-        }
+        }//sorted matrix
         return 0;
 }
